@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'report bot!',
+  tagline: 'サーバー管理者のためのDiscord bot',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -20,8 +20,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'yanikee', // Usually your GitHub org/user name.
+  projectName: 'report_bot-docs2', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -66,7 +66,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'report bot!',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -76,12 +76,11 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Document',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://discord.com/oauth2/authorize?client_id=1237001692977827920&permissions=326417583168&scope=bot',
+            label: 'botを導入',
             position: 'right',
           },
         ],
@@ -93,8 +92,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'チュートリアル',
                 to: '/docs/intro',
+              },
+              {
+                label: '機能',
+                to: '/docs/functions',
               },
             ],
           },
@@ -102,16 +105,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Discord support',
+                href: 'https://discord.gg/djQHvM6PtE',
               },
             ],
           },
@@ -119,12 +114,12 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Github',
+                to: 'https://github.com/yanikee/report_bot/',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'GitHub(docs)',
+                href: 'https://github.com/yanikee/report_bot-docs2',
               },
             ],
           },
