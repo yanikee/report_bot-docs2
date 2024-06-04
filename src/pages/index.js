@@ -19,20 +19,15 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/functions/report">
+            to="/docs/functions">
             何ができるの (。´･ω･)?
-          </Link>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/functions/report">
-            🙋🏻 report 機能
           </Link>
           </div>
           <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
+            className="button button--info button--lg"
             to="/docs/functions/匿名ticket">
-            🔖 匿名ticket 機能
+            🔗 招待する！
           </Link>
         </div>
       </div>

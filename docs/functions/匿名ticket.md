@@ -1,4 +1,4 @@
-有名bot『Ticket Tool』の匿名版のような機能です。  
+有名bot『Ticket Tool』の匿名版のような機能  
 
 ---
 
