@@ -13,11 +13,9 @@ botのDMを通じ、サーバー管理者と会話をすることができます
 
 
 ## 使い方
-1. '匿名ticket' ボタンを押す  
-<center><img decoding="async" loading="lazy" alt="pticket_01" src="/report_bot-docs2/assets/images/pticket_01-7877e65749745725190ee61960c40592.JPG" title="ボタンを押す" width="60%" class="img_node_modules-@docusaurus-theme-classic-lib-theme-MDXComponents-Img-styles-module" /></center>
+1. '匿名ticket' ボタンを押す
+![pticket_01](./assets/pticket_01.png)
 
-2. ticket内容を入力する  
-<center><img decoding="async" loading="lazy" alt="pticket_02" src="/report_bot-docs2/assets/images/pticket_02-024e8c7a690235256cf5f6395b1e65e3.JPG" title="内容を記入する" width="60%" class="img_node_modules-@docusaurus-theme-classic-lib-theme-MDXComponents-Img-styles-module" /></center>
-
+2. ticket内容を入力する
+![pticket_02](./assets/pticket_02.png)
 3. DMにて、画像などを送信することができます
-<center><img decoding="async" loading="lazy" alt="DM画像送信" src="/report_bot-docs2/assets/images/pticket_03-1179f4c36812f3fa4f475b92463d8701.JPG" width="60%" class="img_node_modules-@docusaurus-theme-classic-lib-theme-MDXComponents-Img-styles-module" /></center>
