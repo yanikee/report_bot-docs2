@@ -6,6 +6,7 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'report bot!',
@@ -70,7 +71,7 @@ const config = {
           },
           {
             href: 'https://discord.com/oauth2/authorize?client_id=1237001692977827920&permissions=326417583168&scope=bot',
-            label: 'botを導入',
+            label: '🔗 botを導入',
             position: 'right',
           },
         ],
@@ -82,7 +83,11 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: '機能',
+                label: 'quickstart',
+                to: '/docs/quickstart/',
+              },
+              {
+                label: 'functions',
                 to: '/docs/functions',
               },
             ],
@@ -116,7 +121,12 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      colorMode: {
+        defaultMode: 'light',
+        respectPrefersColorScheme: true,
+      },
     }),
 };
 
 export default config;
+
