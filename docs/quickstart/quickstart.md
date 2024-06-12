@@ -1,7 +1,7 @@
 ## まず何をすれば良いの？
 
-1. Reportを送信するチャンネル
-1. 匿名Ticketを送信するチャンネル, 匿名Ticket開始ボタンを設置するチャンネル  
+1. Reportを受信するチャンネル
+1. 匿名Ticketを受信するチャンネル, 匿名Ticket開始ボタンを設置するチャンネル  
 
 を設定します。  
 
@@ -12,7 +12,7 @@
 ```
 /report config
 ```
-- Reportを受け取るチャンネルを設定します
+- Reportを受信するチャンネルを設定します
 ![report_01](./assets/report_config_01.png)
 
 :::info
@@ -25,7 +25,7 @@ Reportを受け取りたいチャンネルで実行してください
 ```
 /pticket config
 ```
-1. Ticketを送信するチャンネルを指定してください
+1. Ticketを受信するチャンネルを指定してください
 ![pticket_01](./assets/pticket_config_01.png)
 :::info
 匿名Ticketを開始するためのボタンを設置するチャンネルで実行してください
