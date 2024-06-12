@@ -26,7 +26,7 @@ function HomepageHeader() {
           <div className={styles.buttons}>
           <Link
             className="button button--info button--lg"
-            to="/docs/functions/匿名ticket">
+            to="https://discord.com/oauth2/authorize?client_id=1237001692977827920&permissions=326417583168&scope=bot">
             🔗 招待する！
           </Link>
         </div>
