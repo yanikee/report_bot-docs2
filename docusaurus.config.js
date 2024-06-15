@@ -102,6 +102,19 @@ const config = {
             ],
           },
           {
+            title: 'Legal',
+            items: [
+              {
+                label: '利用規約',
+                to: '/terms-of-service',
+              },
+              {
+                label: 'プライバシーポリシー',
+                to: '/privacy-policy'
+              },
+            ],
+          },
+          {
             title: 'More',
             items: [
               {
@@ -115,7 +128,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Built with Docusaurus.`,
+        copyright: `Copyright © 2024 yanike. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
