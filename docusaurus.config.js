@@ -90,6 +90,10 @@ const config = {
                 label: 'functions',
                 to: '/docs/functions',
               },
+              {
+                label: 'Changelog',
+                to: '/docs/Changelog',
+              },
             ],
           },
           {
