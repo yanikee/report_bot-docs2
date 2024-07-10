@@ -1,0 +1,21 @@
+{
+  "short_name": "report bot!",
+  "name": "report bot! documentation",
+  "icons": [
+    {
+      "src": "/static/img/docusaurus.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/static/img/docusaurus.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#ffffff"
+}
