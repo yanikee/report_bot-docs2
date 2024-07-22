@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 有名bot『Ticket Tool』の匿名版のような機能  
 botのDMを通じ、サーバー管理者と会話をすることができます。
 
