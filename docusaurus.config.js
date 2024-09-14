@@ -103,7 +103,7 @@ const config = {
             label: 'Document',
           },
           {
-            href: 'https://discord.com/oauth2/authorize?client_id=1237001692977827920&permissions=326417583168&scope=bot',
+            href: 'https://discord.com/oauth2/authorize?client_id=1237001692977827920&permissions=326417680448&integration_type=0&scope=bot',
             label: '🔗 botを導入',
             position: 'right',
           },
