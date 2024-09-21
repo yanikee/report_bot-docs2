@@ -116,12 +116,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'quickstart',
-                to: '/docs/quickstart/',
-              },
-              {
                 label: 'functions',
                 to: '/docs/functions',
+              },
+              {
+                label: 'Error Guide',
+                to: '/docs/error',
               },
               {
                 label: 'Changelog',
@@ -154,10 +154,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Github',
-                to: 'https://github.com/yanikee/report_bot/',
-              },
               {
                 label: 'GitHub(docs)',
                 href: 'https://github.com/yanikee/report_bot-docs2',

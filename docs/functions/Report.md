@@ -20,6 +20,5 @@ sidebar_position: 1
 ## 設定
 
 ```
-/report setting <channel: 任意> <mention_role: 任意>
+/settings
 ```
-- 詳しい設定の仕方は[こちら](../quickstart/page1)

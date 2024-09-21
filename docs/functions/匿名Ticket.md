@@ -20,6 +20,5 @@ botのDMを通じ、サーバー管理者と会話をすることができます
 ## 設定
 
 ```
-/pticket setting <ticket_channel: 必須> <mention_role: 任意>
+/settings
 ```
-- 詳しい設定の仕方は[こちら](../quickstart/page2)
